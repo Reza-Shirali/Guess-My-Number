@@ -34,14 +34,14 @@ main {
 }
 
 .left {
-  width: 52rem;
+  /* width: 52rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .right {
-  width: 52rem;
+  /* width: 52rem; */
   font-size: 2rem;
 }
 
@@ -121,4 +121,46 @@ h1 {
   font-size: 2.5rem;
 }
 
-
+@media screen and (max-width: 776px) {
+  .header__title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .message {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .header__title {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .label-highscore {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  header {
+    border: none;
+  }
+  .number {
+    padding: 2rem 0;
+    bottom: 18px;
+    left: 51%;
+  }
+  .between{
+    top: 4rem;
+  }
+}
+@media screen and (max-width:476px){
+  .between{
+    right: 0.5rem;
+  }
+}
