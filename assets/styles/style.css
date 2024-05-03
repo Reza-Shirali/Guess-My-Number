@@ -164,3 +164,24 @@ h1 {
     right: 0.5rem;
   }
 }
+@media screen and (max-width:465px) {
+  .header__title{
+    font-size: 1rem;
+  }
+  .btn{
+    padding: 1rem 2rem;
+  }
+  .between{
+    top: 3rem;
+  }
+}
+
+@media screen  and (max-width:440px){
+  .btn{
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+  .between{
+    font-size: 1.2rem;
+  }
+}
